@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Joseph Clampett / Site Title"
+title                    : "Joseph Clampett"
 title_separator          : "-"
 name                     : &name "Joseph Clampett"
 description              : &description "Avid graphics programmer, learner, etc."
@@ -22,11 +22,11 @@ repository               : "josephclampett/josephclampett.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Joseph Clampett"
+  name             : "Joey Clampett"
   pronouns         : # example: "she/her"  
   bio              : "Environmental Science B.S. and Computer Science B.S."
   location         : "Taipei, Taiwan"
-  employer         : "University of North Carolina at Chapel Hill"
+  employer         : "UNC Chapel Hill & NTU in Taiwan"
   uri              : # URL
   email            : "jclampett@unc.edu" 
 
