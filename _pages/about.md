@@ -31,7 +31,7 @@ nature_gallery:
     - image_path: "MainGallery/Sustainability/DSC_3798.jpg"
     - image_path: "MainGallery/Sustainability/DSC_4973.jpg"
     - image_path: "MainGallery/Sustainability/DSC_9949.jpg"
-    - image_path: "MainGallery/Sustainability/DSC_0777.jpg"
+    - image_path: "MainGallery/Sustainability/PXL_20241005_060357726.jpg"
     - image_path: "MainGallery/Sustainability/DSC_2394.jpg"
     - image_path: "MainGallery/Sustainability/DSC_1703.jpg"
     - image_path: "MainGallery/Sustainability/DSC_1827.jpg"
