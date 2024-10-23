@@ -207,13 +207,16 @@ figure {
 
   &.half {
     > a,
-    > img {
+    > img,
+    > figure {
       @include breakpoint($small) {
         width: calc(50% - 0.5em);
       }
+      margin: 0em 0;
     }
 
     figcaption {
+      @extend p;
       width: 100%;
     }
   }
@@ -237,7 +240,7 @@ figure {
 figcaption {
   margin-bottom: 0.5em;
   color: mix(#fff, $text-color, 25%);
-  font-family: $caption-font-family;
+  font-family: $global-font-family;
   font-size: $type-size-6;
 
   a {

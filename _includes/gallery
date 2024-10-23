@@ -35,13 +35,16 @@
           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
       </a>
     {% else %}
-      <img src=
-        {% if img.image_path contains "://" %}
-          "{{ img.image_path }}"
-        {% else %}
-          "{{ img.image_path | prepend: "/images/" | prepend: base_path }}"
-        {% endif %}
-        alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+      <figure>
+        <img src=
+          {% if img.image_path contains "://" %}
+            "{{ img.image_path }}"
+          {% else %}
+            "{{ img.image_path | prepend: "/images/" | resize: '1000x1000>' }}"
+          {% endif %}
+          alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+          {% if img.alt %}<figcaption>{{ img.alt }}</figcaption>{% endif %}
+      </figure>
     {% endif %}
   {% endfor %}
   {% if include.caption %}
