@@ -10,7 +10,7 @@ lab_gallery:
   images:
     - image_path: "MainGallery/Lab/PXL_20240820_195800127.jpg"
     - image_path: "MainGallery/Lab/DSC_1210.jpg"
-      alt: "UNC Science Expo (the problem with being the photographer is that you're not in the photos)"
+      alt: "UNC Science Expo (the curse of the applying-to-things photographer is to never be in the photos)"
     - image_path: "MainGallery/Lab/DSC_1548.jpg"
       alt: "Electromagnetic shaker with pneumatic air bearing and control system, droplet generator, compressed air for experiment pressurization, and high-speed camera"
       
