@@ -34,7 +34,20 @@
           {% endif %}
           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
       </a>
-    {% else %}
+    {% elsif img.image_path contains ".mp4" %}
+      <figure>
+        <video autoplay muted loop>
+          <source src=
+            {% if img.image_path contains "://" %}
+              "{{ img.image_path }}"
+            {% else %}
+              "{{ img.image_path | prepend: "/images/" }}"
+            {% endif %}
+            type="video/mp4">
+        </video>
+        {% if img.alt %}<figcaption>{{ img.alt }}</figcaption>{% endif %}
+      </figure>
+    {% else img.image_path %}
       <figure>
         <img src=
           {% if img.image_path contains "://" %}

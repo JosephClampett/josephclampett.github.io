@@ -190,11 +190,13 @@ figure {
 
   img,
   iframe,
+  video,
   .fluid-width-video-wrapper {
     margin-bottom: 1em;
   }
 
-  img {
+  img,
+  video {
     width: 100%;
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
@@ -208,6 +210,7 @@ figure {
   &.half {
     > a,
     > img,
+    > video,
     > figure {
       @include breakpoint($small) {
         width: calc(50% - 0.5em);
