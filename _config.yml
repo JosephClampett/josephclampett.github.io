@@ -24,11 +24,11 @@ author:
   avatar           : "Header.jpg"
   name             : "Joseph Clampett"
   pronouns         : # example: "she/her"  
-  bio              : "Environmental Science & Computer Science"
+  bio              : "Environmental Science & Computer Science B.S. at UNC\nEnergy Science and Engineering PhD at Stanford"
   location         : "Chapel Hill, USA"
-  employer         : "UNC Chapel Hill"
+  employer         : "Stanford"
   uri              : # URL
-  email            : "jclampett@unc.edu" 
+  email            : "jclampett@stanford.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
